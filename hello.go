@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+//importing the quote module from pkg.go.dev
+import "rsc.io/quote"
+
+
 func main() {
-    fmt.Println("Hello, World!")
+    fmt.Println(quote.Go())
 }
